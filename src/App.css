@@ -1,0 +1,117 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*/
+body:{
+position: absolute;
+}
+
+.App {
+  background-image: linear-gradient(
+      rgb(224, 224, 224, 0.7),
+      rgba(248, 249, 255, 0.5)
+    ),
+    url(https://cdn.hipwallpaper.com/i/73/16/Q8vw3e.jpg);
+  
+ height: 100vh;
+  text-align: center;
+  position: relative;
+
+  width: 100%;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block-parallax-1 {
+    overflow: hidden;
+    position: relative;
+}
+.block-parallax-1 .parallax-bg {
+    background-attachment: fixed;
+    background-image: url('https://cdn.hipwallpaper.com/i/73/16/Q8vw3e.jpg');
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    min-width: 1170px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.block-parallax-1 .md-box {
+    padding: 85px 0 200px;
+    background: rgba(0, 0, 0, 0.75);
+    position: relative;
+    height: 100%;
+  
+}
+.block-parallax-1 .md-box h1 {
+    color: #fff;
+}
+
+.block-parallax-2 .parallax-bg { 	
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_z73DvFVC1ek9ZsGdCpvpDW_AwRqOWgG6IP2wOXrVibxz_EDV');
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+thead th {
+  background-color: #006DCC;
+  color: white;
+}
+
+tbody td {
+  background-color: #EEEEEE;
+}
+
+tr td:first-child,
+tr th:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
